@@ -79,8 +79,8 @@ body {
 
 /* Header Start here */
 .logo {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 20%;
 }
 
 #header {
@@ -88,7 +88,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
@@ -135,7 +134,7 @@ body {
 /* Home Page */
 #hero {
     background-image: url('https://i.postimg.cc/vmzQv1Fy/hero4.png');
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -307,7 +306,7 @@ body {
 
 .pro .img1 {
     height: 295px;
-    width: 325px;
+    width: 290px;
 }
 
 #banner {
@@ -355,16 +354,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(http://cdn.shopify.com/s/files/1/0596/3504/0436/collections/Plume.jpg?v=1636482365);
+    background-image: url(https://i.postimg.cc/pyM9mbk5/b18.jpg);
     min-width: 650px;
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
 }
-#sm-banner .banner-box2{
-    background-image: url(http://cdn.shopify.com/s/files/1/0596/3504/0436/collections/Plume.jpg?v=1636482365);
+
+#sm-banner .banner-box2 {
+    background-image: url(https://i.postimg.cc/vHvfShz7/b16.jpg);
 }
+
 #sm-banner h4 {
     color: #fff;
     font-size: 20px;
@@ -388,12 +389,13 @@ body {
     background: #088178;
     border: 1px solid #088178;
 }
+
 #banner3 .banner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(http://cdn.shopify.com/s/files/1/0596/3504/0436/collections/Plume.jpg?v=1636482365);
+    background-image: url(https://i.postimg.cc/J0vvwmmg/b7.jpg);
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -401,35 +403,132 @@ body {
     padding: 20px;
     margin-bottom: 20px;
 }
-#banner3 .banner-box2{
+
+#banner3 .banner-box2 {
+    background-image: url(https://i.postimg.cc/t4qq2tSx/b17.jpg);
+}
+
+#banner3 .banner-box3 {
     background-image: url(http://cdn.shopify.com/s/files/1/0596/3504/0436/collections/Plume.jpg?v=1636482365);
 }
-#banner3 .banner-box3{
-    background-image: url(http://cdn.shopify.com/s/files/1/0596/3504/0436/collections/Plume.jpg?v=1636482365);
-}
-#banner3 h2{
+
+#banner3 h2 {
     color: #fff;
     font-weight: 900;
     font-size: 22px;
 }
-#banner3 h3{
+
+#banner3 h3 {
     color: #088178;
     font-weight: 800;
     font-size: 15px;
 }
-#banner3{
+
+#banner3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 80px;
 }
-#Response{
+
+#Response {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(http://cdn.shopify.com/s/files/1/0596/3504/0436/collections/Plume.jpg?v=1636482365);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
+}
+
+#Response h4 {
+    font-weight: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#Response p {
+    font-weight: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#Response p span {
+
+    color: #ffbd27;
+}
+
+#Response input {
+    height: 3.125rem;
+    padding: 0 1.2em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#Response button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer {
+    display: flex;
+    flex-grow: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    margin-top: 20px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .colinstall .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .colinstall img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
 }
